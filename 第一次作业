@@ -1,0 +1,24 @@
+#思考题1  
+*GLI操作比较方便，可以直接在命令行内完成所有的任务，对于熟悉计算机的人来说
+能够大大减少进行操作的时间，但是不够直观，而GUI，想干什么事情，直接看界面就
+能明白怎么做，对于电脑小白来说比较友好*  
+#思考题2  
+![command](http://note.youdao.com/noteshare?id=af75372d15fc05fcf165f5a1b48b1c0b)  
+result:输出为  
+3  
+2  
+1  
+echo echo Shell start 加不加'并没有影响，但是echo echo \$c>file1加不加'会影响判断输出
+到那个位置。所以为了方便起见，在command里面我全部加了'号  
+3输出到了file1，2输出到了file2，1输出到了file3，之后cat输出文件内容到result里面，一次是file1
+file2，file3。所以结果是321.  
+#思考题3  
+add the file 对应的是 git add  
+stage the file 对应的是 git add  
+commit 对应的是 git commit  
+#思考题4  
++ git reset HEAD printf.c  git checkout printf.c
++ git checkout printf.c
++ git reset HEAD Tucao.txt  
+#思考题5  
++ 
